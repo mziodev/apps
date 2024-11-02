@@ -1,2 +1,2 @@
 # apps
-The main website for all my apps info and support.
+Just the website for all my apps info and support.
