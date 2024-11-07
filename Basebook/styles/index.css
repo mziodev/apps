@@ -7,33 +7,38 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif, "Lucida Grande",
         "Lucida Sans", Arial, sans-serif;
     font-size: 1rem;
+    text-align: center;
 }
 
 header,
 main {
     max-width: 800px;
     padding: 1rem;
-    padding-bottom: 0;
     margin: 40px auto;
 }
 
-header {
-    text-align: center;
+header h4 {
+    color: #5493c9;
+    margin-top: 0.5rem;
 }
 
-header h1,
-main h2 {
-    color: #9e1a60;
+main {
+    text-align: left;
 }
 
+main h3,
+main h4,
 main p {
-    margin-top: 0.3rem;
-    margin-bottom: 1rem;
+    margin: 1rem 0;
 }
 
 main p:last-child {
-    text-align: center;
-    font-size: 0.7rem;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+    font-size: 0.6rem;
+}
+
+.logo {
+    width: 256px;
+    height: 256px;
+    margin: 20px 5px auto;
+    border-radius: 2rem;
 }
