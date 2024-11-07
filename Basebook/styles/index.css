@@ -8,6 +8,7 @@ body {
         "Lucida Sans", Arial, sans-serif;
     font-size: 1rem;
     text-align: center;
+    color: #333;
 }
 
 header,
@@ -18,11 +19,16 @@ main {
 }
 
 header h4 {
-    color: #5493c9;
     margin-top: 0.5rem;
 }
 
+header h4 {
+    color: #9e1a60;
+}
+
 main {
+    margin-top: 0;
+    padding-top: 0;
     text-align: left;
 }
 
